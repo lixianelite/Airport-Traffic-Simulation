@@ -13,10 +13,13 @@
 #include "Airport.h"
 #include "PriorityQueue.h"
 
+//used to schedule the event.
 void Schedule(AirportEvent* event);
 
+//assign airplane's destination.
 Airport* getDestination(Airport* source);
 
+//get current time, used to schedule next event.
 double getCurrentTime();
 
 #endif

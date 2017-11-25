@@ -11,8 +11,10 @@
 
 typedef struct Node Node;
 typedef struct PriorityQueue Queue;
+
 //data structure used for priorityQueue;
 typedef struct AirportEvent AirportEvent;
+
 //data structure used for simulate airport Event;
 typedef struct Airplane Airplane;
 typedef struct Airport Airport;
